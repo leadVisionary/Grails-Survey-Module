@@ -1,0 +1,16 @@
+Testsuite: com.visionarysoftwaresolutions.QuestionServiceTests
+Tests run: 3, Failures: 0, Errors: 0, Time elapsed: 0.127 sec
+------------- Standard Output ---------------
+--Output from testCreateValidMultipleChoiceQuestion--
+--Output from testCreateInvalidMultipleChoiceQuestionWithBlankQuestionText--
+--Output from testCreateInvalidMultipleChoiceQuestionWithBlankAnswerText--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testCreateValidMultipleChoiceQuestion--
+--Output from testCreateInvalidMultipleChoiceQuestionWithBlankQuestionText--
+--Output from testCreateInvalidMultipleChoiceQuestionWithBlankAnswerText--
+------------- ---------------- ---------------
+
+Testcase: testCreateValidMultipleChoiceQuestion took 0.061 sec
+Testcase: testCreateInvalidMultipleChoiceQuestionWithBlankQuestionText took 0.035 sec
+Testcase: testCreateInvalidMultipleChoiceQuestionWithBlankAnswerText took 0.029 sec

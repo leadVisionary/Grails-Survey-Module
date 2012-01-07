@@ -1,0 +1,16 @@
+Testsuite: com.visionarysoftwaresolutions.AnswerTests
+Tests run: 3, Failures: 0, Errors: 0, Time elapsed: 0.031 sec
+------------- Standard Output ---------------
+--Output from testInvalidNonUniqueText--
+--Output from testValidAnswerWithOnlyText--
+--Output from testAnswerStringRepresentation--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testInvalidNonUniqueText--
+--Output from testValidAnswerWithOnlyText--
+--Output from testAnswerStringRepresentation--
+------------- ---------------- ---------------
+
+Testcase: testInvalidNonUniqueText took 0.013 sec
+Testcase: testValidAnswerWithOnlyText took 0.007 sec
+Testcase: testAnswerStringRepresentation took 0.002 sec

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="ubuntu" name="com.visionarysoftwaresolutions.QuestionServiceTests" tests="3" time="0.127" timestamp="2012-01-07T03:37:50">
+  <properties />
+  <testcase classname="com.visionarysoftwaresolutions.QuestionServiceTests" name="testCreateValidMultipleChoiceQuestion" time="0.061" />
+  <testcase classname="com.visionarysoftwaresolutions.QuestionServiceTests" name="testCreateInvalidMultipleChoiceQuestionWithBlankQuestionText" time="0.035" />
+  <testcase classname="com.visionarysoftwaresolutions.QuestionServiceTests" name="testCreateInvalidMultipleChoiceQuestionWithBlankAnswerText" time="0.028" />
+  <system-out><![CDATA[--Output from testCreateValidMultipleChoiceQuestion--
+--Output from testCreateInvalidMultipleChoiceQuestionWithBlankQuestionText--
+--Output from testCreateInvalidMultipleChoiceQuestionWithBlankAnswerText--
+]]></system-out>
+  <system-err><![CDATA[--Output from testCreateValidMultipleChoiceQuestion--
+--Output from testCreateInvalidMultipleChoiceQuestionWithBlankQuestionText--
+--Output from testCreateInvalidMultipleChoiceQuestionWithBlankAnswerText--
+]]></system-err>
+</testsuite>

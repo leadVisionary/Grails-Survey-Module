@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="ubuntu" id="0" name="AnswerTests" package="com.visionarysoftwaresolutions" tests="3" time="0.031" timestamp="2012-01-07T03:37:50">
+      <properties />
+
+      <testcase classname="com.visionarysoftwaresolutions.AnswerTests" name="testInvalidNonUniqueText" time="0.013" />
+
+      <testcase classname="com.visionarysoftwaresolutions.AnswerTests" name="testValidAnswerWithOnlyText" time="0.0070" />
+
+      <testcase classname="com.visionarysoftwaresolutions.AnswerTests" name="testAnswerStringRepresentation" time="0.0020" />
+
+      <system-out><![CDATA[--Output from testInvalidNonUniqueText--
+--Output from testValidAnswerWithOnlyText--
+--Output from testAnswerStringRepresentation--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testInvalidNonUniqueText--
+--Output from testValidAnswerWithOnlyText--
+--Output from testAnswerStringRepresentation--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="3" hostname="ubuntu" id="1" name="QuestionControllerTests" package="com.visionarysoftwaresolutions" tests="3" time="1.088" timestamp="2012-01-07T03:37:49">
+      <properties />
+
+      <testcase classname="com.visionarysoftwaresolutions.QuestionControllerTests" name="testCreateValidMultipleChoiceQuestion" time="0.978">
+          <failure message="junit.framework.AssertionFailedError: expected:&lt;1&gt; but was:&lt;1&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: expected:&lt;1&gt; but was:&lt;1&gt;
+	at com.visionarysoftwaresolutions.QuestionControllerTests.testCreateValidMultipleChoiceQuestion(QuestionControllerTests.groovy:36)
+</failure>
+
+      </testcase>
+
+      <testcase classname="com.visionarysoftwaresolutions.QuestionControllerTests" name="testCreateInvalidMultipleChoiceQuestionWithBlankQuestionText" time="0.042">
+          <failure message="junit.framework.AssertionFailedError: Closure com.visionarysoftwaresolutions.QuestionControllerTests$_testCreateInvalidMultipleChoiceQuestionWithBlankQuestionText_closure3@52aaf3d2 should have failed with an exception of type com.visionarysoftwaresolutions.QuestionException, instead got Exception groovy.lang.MissingPropertyException: No such property: id for class: com.visionarysoftwaresolutions.QuestionControllerTests" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Closure com.visionarysoftwaresolutions.QuestionControllerTests$_testCreateInvalidMultipleChoiceQuestionWithBlankQuestionText_closure3@52aaf3d2 should have failed with an exception of type com.visionarysoftwaresolutions.QuestionException, instead got Exception groovy.lang.MissingPropertyException: No such property: id for class: com.visionarysoftwaresolutions.QuestionControllerTests
+	at com.visionarysoftwaresolutions.QuestionControllerTests.testCreateInvalidMultipleChoiceQuestionWithBlankQuestionText(QuestionControllerTests.groovy:46)
+</failure>
+
+      </testcase>
+
+      <testcase classname="com.visionarysoftwaresolutions.QuestionControllerTests" name="testCreateInvalidMultipleChoiceQuestionWithBlankAnswerText" time="0.034">
+          <failure message="junit.framework.AssertionFailedError: Closure com.visionarysoftwaresolutions.QuestionControllerTests$_testCreateInvalidMultipleChoiceQuestionWithBlankAnswerText_closure5@41649a55 should have failed with an exception of type com.visionarysoftwaresolutions.AnswerException, instead got Exception groovy.lang.MissingPropertyException: No such property: id for class: com.visionarysoftwaresolutions.QuestionControllerTests" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Closure com.visionarysoftwaresolutions.QuestionControllerTests$_testCreateInvalidMultipleChoiceQuestionWithBlankAnswerText_closure5@41649a55 should have failed with an exception of type com.visionarysoftwaresolutions.AnswerException, instead got Exception groovy.lang.MissingPropertyException: No such property: id for class: com.visionarysoftwaresolutions.QuestionControllerTests
+	at com.visionarysoftwaresolutions.QuestionControllerTests.testCreateInvalidMultipleChoiceQuestionWithBlankAnswerText(QuestionControllerTests.groovy:61)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testCreateValidMultipleChoiceQuestion--
+--Output from testCreateInvalidMultipleChoiceQuestionWithBlankQuestionText--
+--Output from testCreateInvalidMultipleChoiceQuestionWithBlankAnswerText--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testCreateValidMultipleChoiceQuestion--
+--Output from testCreateInvalidMultipleChoiceQuestionWithBlankQuestionText--
+--Output from testCreateInvalidMultipleChoiceQuestionWithBlankAnswerText--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ubuntu" id="2" name="QuestionServiceTests" package="com.visionarysoftwaresolutions" tests="3" time="0.127" timestamp="2012-01-07T03:37:50">
+      <properties />
+
+      <testcase classname="com.visionarysoftwaresolutions.QuestionServiceTests" name="testCreateValidMultipleChoiceQuestion" time="0.061" />
+
+      <testcase classname="com.visionarysoftwaresolutions.QuestionServiceTests" name="testCreateInvalidMultipleChoiceQuestionWithBlankQuestionText" time="0.035" />
+
+      <testcase classname="com.visionarysoftwaresolutions.QuestionServiceTests" name="testCreateInvalidMultipleChoiceQuestionWithBlankAnswerText" time="0.028" />
+
+      <system-out><![CDATA[--Output from testCreateValidMultipleChoiceQuestion--
+--Output from testCreateInvalidMultipleChoiceQuestionWithBlankQuestionText--
+--Output from testCreateInvalidMultipleChoiceQuestionWithBlankAnswerText--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testCreateValidMultipleChoiceQuestion--
+--Output from testCreateInvalidMultipleChoiceQuestionWithBlankQuestionText--
+--Output from testCreateInvalidMultipleChoiceQuestionWithBlankAnswerText--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="ubuntu" id="3" name="QuestionTests" package="com.visionarysoftwaresolutions" tests="3" time="0.113" timestamp="2012-01-07T03:37:50">
+      <properties />
+
+      <testcase classname="com.visionarysoftwaresolutions.QuestionTests" name="testValidQuestionWithOnlyText" time="0.066" />
+
+      <testcase classname="com.visionarysoftwaresolutions.QuestionTests" name="testInvalidNonUniqueText" time="0.032" />
+
+      <testcase classname="com.visionarysoftwaresolutions.QuestionTests" name="testQuestionStringRepresentation" time="0.0070" />
+
+      <system-out><![CDATA[--Output from testValidQuestionWithOnlyText--
+--Output from testInvalidNonUniqueText--
+--Output from testQuestionStringRepresentation--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testValidQuestionWithOnlyText--
+--Output from testInvalidNonUniqueText--
+--Output from testQuestionStringRepresentation--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

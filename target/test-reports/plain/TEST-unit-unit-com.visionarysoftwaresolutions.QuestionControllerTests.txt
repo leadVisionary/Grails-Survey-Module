@@ -1,0 +1,31 @@
+Testsuite: com.visionarysoftwaresolutions.QuestionControllerTests
+Tests run: 3, Failures: 3, Errors: 0, Time elapsed: 1.088 sec
+------------- Standard Output ---------------
+--Output from testCreateValidMultipleChoiceQuestion--
+--Output from testCreateInvalidMultipleChoiceQuestionWithBlankQuestionText--
+--Output from testCreateInvalidMultipleChoiceQuestionWithBlankAnswerText--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testCreateValidMultipleChoiceQuestion--
+--Output from testCreateInvalidMultipleChoiceQuestionWithBlankQuestionText--
+--Output from testCreateInvalidMultipleChoiceQuestionWithBlankAnswerText--
+------------- ---------------- ---------------
+
+Testcase: testCreateValidMultipleChoiceQuestion took 0.975 sec
+	FAILED
+junit.framework.AssertionFailedError: expected:<1> but was:<1>
+junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: expected:<1> but was:<1>
+	at com.visionarysoftwaresolutions.QuestionControllerTests.testCreateValidMultipleChoiceQuestion(QuestionControllerTests.groovy:36)
+
+Testcase: testCreateInvalidMultipleChoiceQuestionWithBlankQuestionText took 0.042 sec
+	FAILED
+junit.framework.AssertionFailedError: Closure com.visionarysoftwaresolutions.QuestionControllerTests$_testCreateInvalidMultipleChoiceQuestionWithBlankQuestionText_closure3@52aaf3d2 should have failed with an exception of type com.visionarysoftwaresolutions.QuestionException, instead got Exception groovy.lang.MissingPropertyException: No such property: id for class: com.visionarysoftwaresolutions.QuestionControllerTests
+junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Closure com.visionarysoftwaresolutions.QuestionControllerTests$_testCreateInvalidMultipleChoiceQuestionWithBlankQuestionText_closure3@52aaf3d2 should have failed with an exception of type com.visionarysoftwaresolutions.QuestionException, instead got Exception groovy.lang.MissingPropertyException: No such property: id for class: com.visionarysoftwaresolutions.QuestionControllerTests
+	at com.visionarysoftwaresolutions.QuestionControllerTests.testCreateInvalidMultipleChoiceQuestionWithBlankQuestionText(QuestionControllerTests.groovy:46)
+
+Testcase: testCreateInvalidMultipleChoiceQuestionWithBlankAnswerText took 0.034 sec
+	FAILED
+junit.framework.AssertionFailedError: Closure com.visionarysoftwaresolutions.QuestionControllerTests$_testCreateInvalidMultipleChoiceQuestionWithBlankAnswerText_closure5@41649a55 should have failed with an exception of type com.visionarysoftwaresolutions.AnswerException, instead got Exception groovy.lang.MissingPropertyException: No such property: id for class: com.visionarysoftwaresolutions.QuestionControllerTests
+junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Closure com.visionarysoftwaresolutions.QuestionControllerTests$_testCreateInvalidMultipleChoiceQuestionWithBlankAnswerText_closure5@41649a55 should have failed with an exception of type com.visionarysoftwaresolutions.AnswerException, instead got Exception groovy.lang.MissingPropertyException: No such property: id for class: com.visionarysoftwaresolutions.QuestionControllerTests
+	at com.visionarysoftwaresolutions.QuestionControllerTests.testCreateInvalidMultipleChoiceQuestionWithBlankAnswerText(QuestionControllerTests.groovy:61)
+

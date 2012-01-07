@@ -1,0 +1,67 @@
+<html xmlns:lxslt="http://xml.apache.org/xslt" xmlns:stringutils="xalan://org.apache.tools.ant.util.StringUtils">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>Unit Test Results: All Tests</title>
+<link rel="stylesheet" type="text/css" title="Style" href="stylesheet.css">
+</head>
+<body onload="open('allclasses-frame.html','classListFrame')">
+<h1>Unit Test Results.</h1>
+<table width="100%">
+<tr>
+<td align="left"></td><td align="right">Designed for use with <a href="http://www.junit.org/">JUnit</a> and <a href="http://ant.apache.org/">Ant</a>.</td>
+</tr>
+</table>
+<hr size="1">
+<h2>All Tests</h2>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Class</th><th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="com/visionarysoftwaresolutions/0_AnswerTests.html">AnswerTests</a></td><td><a name="testInvalidNonUniqueText"></a><a href="com/visionarysoftwaresolutions/0_AnswerTests.html#testInvalidNonUniqueText">testInvalidNonUniqueText</a></td><td>Success</td><td></td><td>0.013</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="com/visionarysoftwaresolutions/0_AnswerTests.html">AnswerTests</a></td><td><a name="testValidAnswerWithOnlyText"></a><a href="com/visionarysoftwaresolutions/0_AnswerTests.html#testValidAnswerWithOnlyText">testValidAnswerWithOnlyText</a></td><td>Success</td><td></td><td>0.007</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="com/visionarysoftwaresolutions/0_AnswerTests.html">AnswerTests</a></td><td><a name="testAnswerStringRepresentation"></a><a href="com/visionarysoftwaresolutions/0_AnswerTests.html#testAnswerStringRepresentation">testAnswerStringRepresentation</a></td><td>Success</td><td></td><td>0.002</td>
+</tr>
+<tr valign="top" class="Failure">
+<td><a href="com/visionarysoftwaresolutions/1_QuestionControllerTests.html">QuestionControllerTests</a></td><td><a name="testCreateValidMultipleChoiceQuestion"></a><a href="com/visionarysoftwaresolutions/1_QuestionControllerTests.html#testCreateValidMultipleChoiceQuestion">testCreateValidMultipleChoiceQuestion</a></td><td>Failure</td><td>junit.framework.AssertionFailedError: expected:&lt;1&gt; but was:&lt;1&gt;<pre>junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: expected:&lt;1&gt; but was:&lt;1&gt;
+	at com.visionarysoftwaresolutions.QuestionControllerTests.testCreateValidMultipleChoiceQuestion(QuestionControllerTests.groovy:36)
+</pre>
+</td><td>0.978</td>
+</tr>
+<tr valign="top" class="Failure">
+<td><a href="com/visionarysoftwaresolutions/1_QuestionControllerTests.html">QuestionControllerTests</a></td><td><a name="testCreateInvalidMultipleChoiceQuestionWithBlankQuestionText"></a><a href="com/visionarysoftwaresolutions/1_QuestionControllerTests.html#testCreateInvalidMultipleChoiceQuestionWithBlankQuestionText">testCreateInvalidMultipleChoiceQuestionWithBlankQuestionText</a></td><td>Failure</td><td>junit.framework.AssertionFailedError: Closure com.visionarysoftwaresolutions.QuestionControllerTests$_testCreateInvalidMultipleChoiceQuestionWithBlankQuestionText_closure3@52aaf3d2 should have failed with an exception of type com.visionarysoftwaresolutions.QuestionException, instead got Exception groovy.lang.MissingPropertyException: No such property: id for class: com.visionarysoftwaresolutions.QuestionControllerTests<pre>junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Closure com.visionarysoftwaresolutions.QuestionControllerTests$_testCreateInvalidMultipleChoiceQuestionWithBlankQuestionText_closure3@52aaf3d2 should have failed with an exception of type com.visionarysoftwaresolutions.QuestionException, instead got Exception groovy.lang.MissingPropertyException: No such property: id for class: com.visionarysoftwaresolutions.QuestionControllerTests
+	at com.visionarysoftwaresolutions.QuestionControllerTests.testCreateInvalidMultipleChoiceQuestionWithBlankQuestionText(QuestionControllerTests.groovy:46)
+</pre>
+</td><td>0.042</td>
+</tr>
+<tr valign="top" class="Failure">
+<td><a href="com/visionarysoftwaresolutions/1_QuestionControllerTests.html">QuestionControllerTests</a></td><td><a name="testCreateInvalidMultipleChoiceQuestionWithBlankAnswerText"></a><a href="com/visionarysoftwaresolutions/1_QuestionControllerTests.html#testCreateInvalidMultipleChoiceQuestionWithBlankAnswerText">testCreateInvalidMultipleChoiceQuestionWithBlankAnswerText</a></td><td>Failure</td><td>junit.framework.AssertionFailedError: Closure com.visionarysoftwaresolutions.QuestionControllerTests$_testCreateInvalidMultipleChoiceQuestionWithBlankAnswerText_closure5@41649a55 should have failed with an exception of type com.visionarysoftwaresolutions.AnswerException, instead got Exception groovy.lang.MissingPropertyException: No such property: id for class: com.visionarysoftwaresolutions.QuestionControllerTests<pre>junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Closure com.visionarysoftwaresolutions.QuestionControllerTests$_testCreateInvalidMultipleChoiceQuestionWithBlankAnswerText_closure5@41649a55 should have failed with an exception of type com.visionarysoftwaresolutions.AnswerException, instead got Exception groovy.lang.MissingPropertyException: No such property: id for class: com.visionarysoftwaresolutions.QuestionControllerTests
+	at com.visionarysoftwaresolutions.QuestionControllerTests.testCreateInvalidMultipleChoiceQuestionWithBlankAnswerText(QuestionControllerTests.groovy:61)
+</pre>
+</td><td>0.034</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="com/visionarysoftwaresolutions/2_QuestionServiceTests.html">QuestionServiceTests</a></td><td><a name="testCreateValidMultipleChoiceQuestion"></a><a href="com/visionarysoftwaresolutions/2_QuestionServiceTests.html#testCreateValidMultipleChoiceQuestion">testCreateValidMultipleChoiceQuestion</a></td><td>Success</td><td></td><td>0.061</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="com/visionarysoftwaresolutions/2_QuestionServiceTests.html">QuestionServiceTests</a></td><td><a name="testCreateInvalidMultipleChoiceQuestionWithBlankQuestionText"></a><a href="com/visionarysoftwaresolutions/2_QuestionServiceTests.html#testCreateInvalidMultipleChoiceQuestionWithBlankQuestionText">testCreateInvalidMultipleChoiceQuestionWithBlankQuestionText</a></td><td>Success</td><td></td><td>0.035</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="com/visionarysoftwaresolutions/2_QuestionServiceTests.html">QuestionServiceTests</a></td><td><a name="testCreateInvalidMultipleChoiceQuestionWithBlankAnswerText"></a><a href="com/visionarysoftwaresolutions/2_QuestionServiceTests.html#testCreateInvalidMultipleChoiceQuestionWithBlankAnswerText">testCreateInvalidMultipleChoiceQuestionWithBlankAnswerText</a></td><td>Success</td><td></td><td>0.028</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="com/visionarysoftwaresolutions/3_QuestionTests.html">QuestionTests</a></td><td><a name="testValidQuestionWithOnlyText"></a><a href="com/visionarysoftwaresolutions/3_QuestionTests.html#testValidQuestionWithOnlyText">testValidQuestionWithOnlyText</a></td><td>Success</td><td></td><td>0.066</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="com/visionarysoftwaresolutions/3_QuestionTests.html">QuestionTests</a></td><td><a name="testInvalidNonUniqueText"></a><a href="com/visionarysoftwaresolutions/3_QuestionTests.html#testInvalidNonUniqueText">testInvalidNonUniqueText</a></td><td>Success</td><td></td><td>0.032</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="com/visionarysoftwaresolutions/3_QuestionTests.html">QuestionTests</a></td><td><a name="testQuestionStringRepresentation"></a><a href="com/visionarysoftwaresolutions/3_QuestionTests.html#testQuestionStringRepresentation">testQuestionStringRepresentation</a></td><td>Success</td><td></td><td>0.007</td>
+</tr>
+</table>
+</body>
+</html>

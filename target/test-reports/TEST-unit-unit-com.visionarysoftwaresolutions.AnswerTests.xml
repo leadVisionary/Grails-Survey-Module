@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="ubuntu" name="com.visionarysoftwaresolutions.AnswerTests" tests="3" time="0.031" timestamp="2012-01-07T03:37:50">
+  <properties />
+  <testcase classname="com.visionarysoftwaresolutions.AnswerTests" name="testInvalidNonUniqueText" time="0.013" />
+  <testcase classname="com.visionarysoftwaresolutions.AnswerTests" name="testValidAnswerWithOnlyText" time="0.0070" />
+  <testcase classname="com.visionarysoftwaresolutions.AnswerTests" name="testAnswerStringRepresentation" time="0.0020" />
+  <system-out><![CDATA[--Output from testInvalidNonUniqueText--
+--Output from testValidAnswerWithOnlyText--
+--Output from testAnswerStringRepresentation--
+]]></system-out>
+  <system-err><![CDATA[--Output from testInvalidNonUniqueText--
+--Output from testValidAnswerWithOnlyText--
+--Output from testAnswerStringRepresentation--
+]]></system-err>
+</testsuite>
